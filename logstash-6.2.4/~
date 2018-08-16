@@ -1,0 +1,24 @@
+input {                                                                                    
+  jdbc {                                                                                   
+    jdbc_validate_connection => true                                                       
+    jdbc_connection_string => "jdbc:mysql://121.156.47.133:3306/notifications"         
+    jdbc_user => "elk_user"                                                                      
+    jdbc_password => "elk123!@#"                                                                  
+    jdbc_driver_library => "/home/ktsec/elk/mysql-connector-java-5.1.36-bin.jar"   
+    jdbc_driver_class => "com.mysql.jdbc.Driver"                                           
+    use_column_value => true                                                              
+    tracking_column => idx                                                                 
+    last_run_metadata_path => "/home/ktsec/elk/logstash-6.2.4/id-under-5.db"
+    statement => "
+      SELECT * 
+      FROM 2018_0814_url_collection 
+      WHERE idx < :sql_last_value  
+      ORDER BY idx ASC
+      LIMIT 10"                                                        
+ }                                                                                            
+}                                                                                              
+                           
+output {                                                                                       
+  stdout {                                                                                     
+  }                                                                                       
+}  
