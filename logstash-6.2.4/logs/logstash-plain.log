@@ -753,3 +753,172 @@
 [2018-08-16T11:32:52,045][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
 [2018-08-16T11:33:01,536][WARN ][logstash.runner          ] SIGINT received. Shutting down.
 [2018-08-16T11:33:01,876][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0xc10c55a run>"}
+[2018-08-16T11:36:13,596][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:36:13,613][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:36:14,140][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:36:14,725][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:36:15,114][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:36:18,554][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:36:18,937][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x113aa892 sleep>"}
+[2018-08-16T11:36:19,034][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:36:29,554][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:36:29,646][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:36:29,719][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:38:09,200][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:38:09,215][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:38:09,754][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:38:10,357][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:38:10,703][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:38:13,770][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:38:14,254][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x57f7d063 run>"}
+[2018-08-16T11:38:14,376][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:38:57,275][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:38:57,443][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:38:57,525][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:41:54,660][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:41:54,678][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:41:55,129][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:41:55,741][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:41:56,234][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:41:59,482][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:41:59,926][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x6bbfc02 run>"}
+[2018-08-16T11:42:00,098][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:42:08,012][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:42:08,188][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:42:08,327][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:42:08,414][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:43:16,380][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:43:16,398][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:43:16,851][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:43:17,717][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:43:18,147][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:43:21,279][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:43:21,653][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4d29c528 run>"}
+[2018-08-16T11:43:21,743][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:43:27,182][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:43:27,460][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:43:27,582][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:44:32,013][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:44:32,031][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:44:32,461][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:44:33,173][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:44:33,613][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:44:36,724][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:44:37,233][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x682eb0fa run>"}
+[2018-08-16T11:44:37,345][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:44:42,325][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:44:42,437][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:44:42,511][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:46:28,814][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:46:28,832][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:46:29,440][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:46:30,059][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:46:30,609][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:46:33,409][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:46:33,806][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x552616af run>"}
+[2018-08-16T11:46:33,929][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:47:34,856][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:47:34,922][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:47:35,119][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:48:56,328][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:48:56,349][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:48:56,802][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:48:57,500][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:48:57,784][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:49:01,368][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:49:01,789][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x7a14e020 sleep>"}
+[2018-08-16T11:49:01,927][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:49:07,752][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:49:07,761][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:49:08,250][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x7a14e020 run>"}
+[2018-08-16T11:51:30,720][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:51:30,739][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:51:31,373][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:51:32,037][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:51:32,568][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:51:36,283][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:51:36,607][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x494f28d9 run>"}
+[2018-08-16T11:51:36,690][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:51:39,145][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:51:39,339][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:51:39,593][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:54:33,337][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:54:33,356][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:54:33,944][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:54:34,595][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:54:35,026][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:54:38,318][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:54:38,576][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x6d3ce8b0 run>"}
+[2018-08-16T11:54:38,660][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:55:21,475][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:55:21,845][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x6d3ce8b0 run>"}
+[2018-08-16T11:57:13,310][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:57:13,326][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:57:13,948][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:57:14,580][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:57:15,195][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:57:18,374][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:57:18,506][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x54ca147e run>"}
+[2018-08-16T11:57:18,632][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:57:26,655][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:57:26,794][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:57:26,878][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:57:49,206][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:57:49,226][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:57:49,664][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:57:50,213][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:57:50,652][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:57:54,197][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:57:54,366][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0xf31e634 run>"}
+[2018-08-16T11:57:54,461][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T11:58:22,856][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T11:58:22,990][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T11:58:23,078][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T11:59:52,221][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T11:59:52,241][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T11:59:52,748][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T11:59:53,364][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T11:59:53,725][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T11:59:57,253][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T11:59:57,439][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x42653e1e run>"}
+[2018-08-16T11:59:57,545][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T12:01:35,393][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T12:01:35,489][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T12:01:35,567][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T12:05:01,521][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T12:05:01,539][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T12:05:02,083][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T12:05:02,664][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T12:05:03,126][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T12:05:06,575][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T12:05:07,086][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x7c2e88c9 run>"}
+[2018-08-16T12:05:07,221][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T12:09:12,552][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T12:09:12,970][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x7c2e88c9 run>"}
+[2018-08-16T12:10:43,846][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T12:10:43,864][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T12:10:44,427][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T12:10:45,069][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T12:10:45,516][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T12:10:49,289][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T12:10:49,433][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4b58e563 run>"}
+[2018-08-16T12:10:49,520][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T12:16:30,449][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T12:16:30,574][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T12:16:30,660][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
+[2018-08-16T12:19:43,315][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-16T12:19:43,334][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/ktsec/elk/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-16T12:19:43,861][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-16T12:19:44,509][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-16T12:19:44,844][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-16T12:19:48,571][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-16T12:19:48,625][FATAL][logstash.filters.ruby    ] You must either use an inline script with the "code" option or a script file using "path".
+[2018-08-16T12:19:49,113][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x5ea808db run>"}
+[2018-08-16T12:19:49,238][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-16T12:19:49,996][INFO ][logstash.filters.elasticsearch] New ElasticSearch filter client {:hosts=>["52.78.105.123:9200"]}
+[2018-08-16T12:19:50,000][INFO ][logstash.filters.elasticsearch] New ElasticSearch filter client {:hosts=>["52.78.105.123:9200"]}
+[2018-08-16T12:19:50,006][INFO ][logstash.filters.elasticsearch] New ElasticSearch filter client {:hosts=>["52.78.105.123:9200"]}
+[2018-08-16T12:19:50,321][INFO ][logstash.filters.elasticsearch] New ElasticSearch filter client {:hosts=>["52.78.105.123:9200"]}
+[2018-08-16T12:20:12,878][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-16T12:20:13,004][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2018-08-16T12:20:13,070][ERROR][org.logstash.Logstash    ] org.jruby.exceptions.ThreadKill
